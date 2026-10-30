@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side B, mid-century: records, hi-fi and a listening room (design sample)</title>
+    <meta name="description" content="A design sample: a fictional record shop and listening room, art-directed in mid-century modern style." />
+    <meta name="theme-color" content="#f3f7f7" />
+    <link rel="icon" href="../favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Libre+Franklin:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="../img/record-store-1963-teal-1440.webp" imagesrcset="../img/record-store-1963-teal-960.webp 960w, ../img/record-store-1963-teal-1440.webp 1440w, ../img/record-store-1963-teal-1920.webp 1920w" imagesizes="(min-width: 60rem) 56vw, 100vw" />
+    <script>document.documentElement.classList.add("js")</script>
+    <script type="module" crossorigin src="../assets/mid-century-CPzY_AB1.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/transitions-Dmy-K4ic.js">
+    <link rel="modulepreload" crossorigin href="../assets/booking-QiCjPrqt.js">
+    <link rel="modulepreload" crossorigin href="../assets/needle-fMAHz961.js">
+    <link rel="stylesheet" crossorigin href="../assets/transitions-CAaEYbZX.css">
+    <link rel="stylesheet" crossorigin href="../assets/booking-Dos5d-Vi.css">
+    <link rel="stylesheet" crossorigin href="../assets/mid-century-DGSy58re.css">
+  </head>
+  <body>
+    <div class="viewer">
+      <div class="viewer__inner">
+        <p class="viewer__note">Design sample.<span class="viewer__long"> Side B is a made-up shop, shown in five art directions.</span> <a href="../">About it</a></p>
+        <nav aria-label="Art directions">
+          <a href="../bauhaus/">Bauhaus</a>
+          <a href="../brutalist/">Brutalist</a>
+          <a href="../mid-century/" aria-current="page">Mid-century</a>
+          <a href="../ukiyo-e/">Ukiyo-e</a>
+          <a href="../chrome/">Liquid chrome</a>
+        </nav>
+      </div>
+    </div>
+
+    <header class="mc-nav">
+      <a class="mc-mark" href="./" data-vt="mark">Side&nbsp;B</a>
+      <button class="mc-menu" type="button" aria-expanded="false" aria-controls="mc-main-nav" hidden>Menu</button>
+      <nav id="mc-main-nav" class="mc-nav__links" aria-label="Main">
+        <a href="#sessions">Sessions</a>
+        <a href="#room">The room</a>
+        <a href="#system">The system</a>
+        <a href="#racks">Racks</a>
+        <a href="#visit">Visit</a>
+        <a class="mc-btn mc-btn--line" href="#book">Book a seat</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero: the sleeve front. The photograph is the sleeve, the mustard disc is the record. -->
+      <section class="mc-hero" aria-labelledby="mc-title">
+        <div class="mc-hero__text">
+          <h1 id="mc-title" data-vt="title">
+            <span class="mc-line"><span class="mc-line__in">Hear the</span><span class="mc-cut mc-cut--teal" aria-hidden="true"></span></span>
+            <span class="mc-line"><span class="mc-line__in">whole</span><span class="mc-cut mc-cut--olive" aria-hidden="true"></span></span>
+            <span class="mc-line"><span class="mc-line__in">album.</span><span class="mc-cut mc-cut--mustard" aria-hidden="true"></span></span>
+          </h1>
+          <p class="mc-lede mc-rise">Records, hi-fi and a quiet room to hear them properly.</p>
+          <p class="mc-rise"><a class="mc-btn" href="#book">Book a seat</a></p>
+        </div>
+
+        <div class="mc-deck">
+          <div class="mc-stage">
+          <figure class="mc-sleeve">
+            <div class="mc-photo">
+              <img
+                src="../img/record-store-1963-teal-1440.webp"
+                srcset="../img/record-store-1963-teal-960.webp 960w, ../img/record-store-1963-teal-1440.webp 1440w, ../img/record-store-1963-teal-1920.webp 1920w, ../img/record-store-1963-teal-2560.webp 2560w"
+                sizes="(min-width: 60rem) 56vw, 100vw"
+                width="2560" height="1439"
+                alt="Customers browsing long racks of records in a busy American record shop in 1963"
+                fetchpriority="high" />
+            </div>
+            <figcaption>Record shop, 1963. Photograph by Marion S. Trikosko, Library of Congress.</figcaption>
+          </figure>
+
+          <div class="mc-player">
+            <div class="mc-record" data-record>
+              <svg class="mc-record__disc" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+                <circle cx="100" cy="100" r="100" class="mc-ink-mustard" />
+                <g class="mc-grooves">
+                  <circle cx="100" cy="100" r="93" />
+                  <circle cx="100" cy="100" r="86" />
+                  <circle cx="100" cy="100" r="80.5" />
+                  <circle cx="100" cy="100" r="73" />
+                  <circle cx="100" cy="100" r="68" />
+                </g>
+                <circle cx="100" cy="100" r="61" class="mc-label-edge" />
+                <circle cx="100" cy="100" r="3.2" class="mc-ink-paper" />
+              </svg>
+              <p class="mc-record__label"><span class="mc-record__when">Tonight, 20:00</span> <span class="mc-record__title">Kind of Blue,<br /> both sides</span></p>
+            </div>
+            <!-- The sheen stays still while the record turns, as light does. -->
+            <svg class="mc-record__sheen" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+              <path d="M138 18.4 A90 90 0 0 1 177.9 55" />
+              <path d="M142.4 32.2 A80 80 0 0 1 161.3 48.6" />
+              <path d="M62.8 179.8 A88 88 0 0 1 32.6 156.6" />
+            </svg>
+
+            <!-- The tonearm: cut-paper geometry drawn in the playing position, pivoting at 250 50. -->
+            <svg class="mc-arm" viewBox="0 0 300 300" aria-hidden="true" focusable="false">
+              <g class="mc-arm__swing" data-arm transform="rotate(-26.7 250 50)">
+                <path d="M267.4 37.4 L242.4 30 L247.6 12.8 L272.6 20.2 Z" class="mc-arm__weight" />
+                <path d="M251.4 60.9 L242.8 58.3 L207.3 183.4 L212.1 184.8 Z" class="mc-arm__tube" />
+                <path d="M216.9 189.5 L202.5 178.7 L183.3 204.3 L197.7 215.1 Z" class="mc-arm__head" />
+              </g>
+              <circle cx="250" cy="50" r="20" class="mc-arm__base" />
+              <circle cx="250" cy="50" r="6" class="mc-arm__pin" />
+            </svg>
+          </div>
+          </div>
+
+          <div class="mc-needle">
+            <button class="mc-btn mc-btn--needle" type="button" data-needle aria-pressed="false">
+              <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="10" cy="10" r="8.5" /><circle cx="10" cy="10" r="2.2" class="mc-hole" /></svg>
+              <span data-needle-label>Drop the needle</span>
+            </button>
+            <p class="mc-small">Sound on. What you hear is the crackle and hum of the room, made live in your browser. The music itself is for the room.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sessions: set like a 1960s concert calendar, one giant numeral a night. -->
+      <section id="sessions" class="mc-sessions mc-band mc-band--teal" aria-labelledby="sessions-title">
+        <div class="mc-wrap">
+          <header class="mc-card">
+            <h2 id="sessions-title" class="mc-title"><span class="mc-title__in">This week in the room</span><span class="mc-cut mc-cut--mustard" aria-hidden="true"></span></h2>
+            <p class="mc-intro">One album a night, both sides, start to finish. Twenty-four seats.</p>
+          </header>
+
+          <ol class="mc-week">
+            <li class="mc-night">
+              <p class="mc-night__day">Tuesday</p>
+              <p class="mc-night__date"><span class="mc-num">3</span> <span class="mc-month">November</span></p>
+              <p class="mc-night__time">20:00</p>
+              <h3 class="mc-night__album">Waltz for Debby</h3>
+              <p class="mc-night__artist">Bill Evans Trio, 1962</p>
+            </li>
+            <li class="mc-night">
+              <p class="mc-night__day">Wednesday</p>
+              <p class="mc-night__date"><span class="mc-num">4</span> <span class="mc-month">November</span></p>
+              <p class="mc-night__time">20:00</p>
+              <h3 class="mc-night__album">Moanin’</h3>
+              <p class="mc-night__artist">Art Blakey and the Jazz Messengers, 1958</p>
+            </li>
+            <li class="mc-night mc-night--tonight">
+              <p class="mc-night__day">Thursday</p>
+              <p class="mc-night__date"><span class="mc-num">5</span> <span class="mc-month">November</span></p>
+              <p class="mc-night__time">20:00 <span class="mc-tonight">Tonight</span></p>
+              <h3 class="mc-night__album">Kind of Blue</h3>
+              <p class="mc-night__artist">Miles Davis, 1959</p>
+            </li>
+            <li class="mc-night">
+              <p class="mc-night__day">Friday</p>
+              <p class="mc-night__date"><span class="mc-num">6</span> <span class="mc-month">November</span></p>
+              <p class="mc-night__time">20:00</p>
+              <h3 class="mc-night__album">A Love Supreme</h3>
+              <p class="mc-night__artist">John Coltrane, 1965</p>
+            </li>
+            <li class="mc-night">
+              <p class="mc-night__day">Saturday</p>
+              <p class="mc-night__date"><span class="mc-num">7</span> <span class="mc-month">November</span></p>
+              <p class="mc-night__time">20:00</p>
+              <h3 class="mc-night__album">Somethin’ Else</h3>
+              <p class="mc-night__artist">Cannonball Adderley, 1958</p>
+            </li>
+            <li class="mc-night mc-night--early">
+              <p class="mc-night__day">Sunday</p>
+              <p class="mc-night__date"><span class="mc-num">8</span> <span class="mc-month">November</span></p>
+              <p class="mc-night__time">17:00</p>
+              <h3 class="mc-night__album">Getz/Gilberto</h3>
+              <p class="mc-night__artist">Stan Getz and João Gilberto, 1964</p>
+            </li>
+          </ol>
+          <p class="mc-note">Sunday starts early, at 17:00.</p>
+        </div>
+      </section>
+
+      <!-- The room: the back of the sleeve, house rules numbered like the running order. -->
+      <section id="room" class="mc-room" aria-labelledby="room-title">
+        <div class="mc-wrap mc-room__grid">
+          <figure class="mc-room__picture">
+            <div class="mc-iris">
+              <img
+                src="../img/mid-century/room-1963-olive-900.webp"
+                srcset="../img/mid-century/room-1963-olive-600.webp 600w, ../img/mid-century/room-1963-olive-900.webp 900w, ../img/mid-century/room-1963-olive-1200.webp 1200w"
+                sizes="(min-width: 60rem) 38vw, 100vw"
+                width="1200" height="1599" loading="lazy"
+                alt="Two women and a man in a hat looking through records along the wall racks of the same shop in 1963" />
+            </div>
+            <figcaption>The same shop, a few steps further in.</figcaption>
+          </figure>
+
+          <div class="mc-room__text">
+            <h2 id="room-title" class="mc-title"><span class="mc-title__in">How the room works</span><span class="mc-cut mc-cut--olive" aria-hidden="true"></span></h2>
+            <div class="mc-sides">
+              <div class="mc-side">
+                <h3 class="mc-side__name">Side one</h3>
+                <ol class="mc-rules">
+                  <li><span class="mc-rules__n" aria-hidden="true">1</span><h4>Arrive by quarter to.</h4><p>The door closes when the needle drops.</p></li>
+                  <li><span class="mc-rules__n" aria-hidden="true">2</span><h4>Phones face down.</h4><p>Screens stay dark and photographs wait until the side ends.</p></li>
+                </ol>
+              </div>
+              <div class="mc-side">
+                <h3 class="mc-side__name">Side two</h3>
+                <ol class="mc-rules" start="3">
+                  <li><span class="mc-rules__n" aria-hidden="true">3</span><h4>Quiet while it plays.</h4><p>Talk at the bar between sides, never over them.</p></li>
+                  <li><span class="mc-rules__n" aria-hidden="true">4</span><h4>Requests on the card.</h4><p>Write one on the card at the bar for next month’s list.</p></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- The system: hi-fi brochure, a signal-chain diagram keyed to the spec copy. -->
+      <section id="system" class="mc-system mc-band mc-band--olive" aria-labelledby="system-title">
+        <div class="mc-wrap mc-system__grid">
+          <header class="mc-system__head">
+            <h2 id="system-title" class="mc-title"><span class="mc-title__in">The system</span><span class="mc-cut mc-cut--mustard" aria-hidden="true"></span></h2>
+            <p class="mc-intro">Restored, not new. Everything in the chain is older than most of the records.</p>
+          </header>
+
+          <figure class="mc-chain" aria-labelledby="chain-caption">
+            <svg viewBox="0 0 640 440" role="img" aria-labelledby="chain-caption">
+              <g class="mc-chain__wire" data-chain="wire">
+                <path d="M122 170 H200 V258 H250 M122 300 H200 V284 H250 M390 271 H470" />
+              </g>
+              <g data-chain="1" class="mc-chain__part">
+                <circle cx="70" cy="170" r="52" class="mc-fill-mustard" />
+                <circle cx="70" cy="170" r="17" class="mc-fill-paper" />
+                <circle cx="70" cy="170" r="4" class="mc-fill-olive" />
+                <circle cx="70" cy="300" r="52" class="mc-fill-mustard" />
+                <circle cx="70" cy="300" r="17" class="mc-fill-paper" />
+                <circle cx="70" cy="300" r="4" class="mc-fill-olive" />
+                <text x="70" y="398" class="mc-chain__key">1</text>
+              </g>
+              <g data-chain="2" class="mc-chain__part">
+                <rect x="260" y="180" width="20" height="56" rx="10" class="mc-fill-mustard" />
+                <rect x="288" y="180" width="20" height="56" rx="10" class="mc-fill-mustard" />
+                <rect x="316" y="180" width="20" height="56" rx="10" class="mc-fill-mustard" />
+                <rect x="346" y="196" width="36" height="40" class="mc-fill-cork" />
+                <rect x="250" y="236" width="140" height="80" class="mc-fill-paper" />
+                <circle cx="278" cy="282" r="10" class="mc-fill-olive" />
+                <circle cx="320" cy="282" r="10" class="mc-fill-olive" />
+                <circle cx="362" cy="282" r="10" class="mc-fill-olive" />
+                <text x="320" y="398" class="mc-chain__key">2</text>
+              </g>
+              <g data-chain="3" class="mc-chain__part">
+                <path d="M470 120 A110 110 0 0 1 580 230 H470 Z" class="mc-fill-paper" />
+                <path d="M470 250 H580 A110 110 0 0 1 470 360 Z" class="mc-fill-paper" />
+                <rect x="580" y="120" width="40" height="240" class="mc-fill-mustard" />
+                <text x="545" y="398" class="mc-chain__key">3</text>
+              </g>
+              <g data-chain="4" class="mc-chain__part">
+                <rect x="0" y="414" width="640" height="26" class="mc-fill-cork" />
+                <text x="620" y="398" class="mc-chain__key mc-chain__key--end">4</text>
+              </g>
+            </svg>
+            <figcaption id="chain-caption">The signal chain, from the decks to the room. Two turntables feed the valve amplifier, which drives the horn loudspeakers in the cork-lined room.</figcaption>
+          </figure>
+
+          <dl class="mc-spec">
+            <div class="mc-spec__item" data-spec="1">
+              <dt><span class="mc-spec__key" aria-hidden="true"><span class="mc-spec__fill"></span><span class="mc-spec__num">1</span></span>Two turntables</dt>
+              <dd>Belt-driven decks from the early 1970s, one for each side, so nothing waits.</dd>
+            </div>
+            <div class="mc-spec__item" data-spec="2">
+              <dt><span class="mc-spec__key" aria-hidden="true"><span class="mc-spec__fill"></span><span class="mc-spec__num">2</span></span>A valve amplifier</dt>
+              <dd>Built in 1968 and rebuilt by hand in 2024, about eight watts a channel.</dd>
+            </div>
+            <div class="mc-spec__item" data-spec="3">
+              <dt><span class="mc-spec__key" aria-hidden="true"><span class="mc-spec__fill"></span><span class="mc-spec__num">3</span></span>Horn loudspeakers</dt>
+              <dd>Large, efficient and quick, the kind the Tokyo listening cafés favoured.</dd>
+            </div>
+            <div class="mc-spec__item" data-spec="4">
+              <dt><span class="mc-spec__key" aria-hidden="true"><span class="mc-spec__fill"></span><span class="mc-spec__num">4</span></span>A cork-lined room</dt>
+              <dd>Twenty-four seats, all facing the speakers, none facing each other.</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- The racks: typeset like the back cover of a sleeve. -->
+      <section id="racks" class="mc-racks" aria-labelledby="racks-title">
+        <div class="mc-wrap">
+          <header class="mc-racks__head">
+            <h2 id="racks-title" class="mc-title mc-title--huge"><span class="mc-title__in">New in the racks</span><span class="mc-cut mc-cut--teal" aria-hidden="true"></span></h2>
+            <p class="mc-intro">Second-hand, cleaned and graded by hand. Prices include a new inner sleeve.</p>
+          </header>
+
+          <div class="mc-tracklist">
+            <table class="mc-tracks">
+              <caption>Side A</caption>
+              <thead>
+                <tr><th scope="col"><span class="visually-hidden">Number</span></th><th scope="col">Album and artist</th><th scope="col">Pressing</th><th scope="col">Grade</th><th scope="col">Price</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="mc-tracks__n">A1</td><th scope="row"><span class="mc-tracks__album">Blue Train</span><span class="mc-tracks__artist">John Coltrane</span></th><td>1970s reissue</td><td>VG+</td><td class="mc-tracks__price">£28</td></tr>
+                <tr><td class="mc-tracks__n">A2</td><th scope="row"><span class="mc-tracks__album">Mingus Ah Um</span><span class="mc-tracks__artist">Charles Mingus</span></th><td>UK pressing</td><td>VG</td><td class="mc-tracks__price">£24</td></tr>
+                <tr><td class="mc-tracks__n">A3</td><th scope="row"><span class="mc-tracks__album">Time Out</span><span class="mc-tracks__artist">The Dave Brubeck Quartet</span></th><td>UK pressing</td><td>VG+</td><td class="mc-tracks__price">£22</td></tr>
+                <tr><td class="mc-tracks__n">A4</td><th scope="row"><span class="mc-tracks__album">Speak No Evil</span><span class="mc-tracks__artist">Wayne Shorter</span></th><td>1980s reissue</td><td>NM</td><td class="mc-tracks__price">£32</td></tr>
+              </tbody>
+            </table>
+            <table class="mc-tracks">
+              <caption>Side B</caption>
+              <thead>
+                <tr><th scope="col"><span class="visually-hidden">Number</span></th><th scope="col">Album and artist</th><th scope="col">Pressing</th><th scope="col">Grade</th><th scope="col">Price</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="mc-tracks__n">B1</td><th scope="row"><span class="mc-tracks__album">Saxophone Colossus</span><span class="mc-tracks__artist">Sonny Rollins</span></th><td>1970s reissue</td><td>VG+</td><td class="mc-tracks__price">£26</td></tr>
+                <tr><td class="mc-tracks__n">B2</td><th scope="row"><span class="mc-tracks__album">Night Train</span><span class="mc-tracks__artist">Oscar Peterson Trio</span></th><td>UK pressing</td><td>VG</td><td class="mc-tracks__price">£18</td></tr>
+                <tr><td class="mc-tracks__n">B3</td><th scope="row"><span class="mc-tracks__album">Maiden Voyage</span><span class="mc-tracks__artist">Herbie Hancock</span></th><td>1980s reissue</td><td>NM</td><td class="mc-tracks__price">£30</td></tr>
+                <tr><td class="mc-tracks__n">B4</td><th scope="row"><span class="mc-tracks__album">Ellington at Newport</span><span class="mc-tracks__artist">Duke Ellington</span></th><td>UK pressing</td><td>VG+</td><td class="mc-tracks__price">£20</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="mc-grades">Grades: NM near mint, VG+ very good plus, VG very good.</p>
+        </div>
+      </section>
+
+      <!-- Book a seat: a mustard field, the form set like a ticket. -->
+      <section id="book" class="mc-book mc-band mc-band--mustard" aria-labelledby="book-title">
+        <div class="mc-wrap mc-book__grid">
+          <header class="mc-book__head">
+            <h2 id="book-title" class="mc-title mc-title--huge"><span class="mc-title__in">Book a seat</span><span class="mc-cut mc-cut--teal" aria-hidden="true"></span></h2>
+            <p class="mc-intro">Seats are held until ten to eight, then given to the queue.</p>
+            <p class="mc-seats"><span class="mc-seats__n">24</span> <span class="mc-seats__t">seats a night, all facing the speakers</span></p>
+          </header>
+
+          <form class="mc-form" data-booking novalidate>
+            <div class="mc-field">
+              <label for="bk-name">Your name</label>
+              <input id="bk-name" name="name" type="text" autocomplete="name" required />
+              <p class="mc-error" id="err-name" data-error-for="name"></p>
+            </div>
+            <div class="mc-field">
+              <label for="bk-email">Email address</label>
+              <input id="bk-email" name="email" type="email" autocomplete="email" required />
+              <p class="mc-error" id="err-email" data-error-for="email"></p>
+            </div>
+            <div class="mc-field mc-field--wide">
+              <label for="bk-session">Session</label>
+              <select id="bk-session" name="session" required>
+                <option value="">Choose a session</option>
+                <option value="2026-11-03">Tuesday 3 November, 20:00. Waltz for Debby</option>
+                <option value="2026-11-04">Wednesday 4 November, 20:00. Moanin’</option>
+                <option value="2026-11-05">Thursday 5 November, 20:00. Kind of Blue</option>
+                <option value="2026-11-06">Friday 6 November, 20:00. A Love Supreme</option>
+                <option value="2026-11-07">Saturday 7 November, 20:00. Somethin’ Else</option>
+                <option value="2026-11-08">Sunday 8 November, 17:00. Getz/Gilberto</option>
+              </select>
+              <p class="mc-error" id="err-session" data-error-for="session"></p>
+            </div>
+            <div class="mc-field mc-field--seats">
+              <label for="bk-seats">Seats</label>
+              <select id="bk-seats" name="seats" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+            <div class="mc-form__end">
+              <button class="mc-btn mc-btn--ink" type="submit">Hold my seat</button>
+              <p class="mc-form__message" data-booking-message aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Visit: set like the credits on the back of a sleeve. -->
+      <section id="visit" class="mc-visit" aria-labelledby="visit-title">
+        <div class="mc-wrap mc-visit__grid">
+          <h2 id="visit-title" class="mc-title mc-title--huge"><span class="mc-title__in">Visit</span><span class="mc-cut mc-cut--olive" aria-hidden="true"></span></h2>
+          <p class="mc-hours" aria-hidden="true"><span>12:00</span><span class="mc-hours__to">to</span><span>23:00</span></p>
+          <dl class="mc-credits">
+            <div><dt>Address</dt><dd>Unit 3, Larch Yard, London E8 (made up)</dd></div>
+            <div><dt>Hours</dt><dd>Tuesday to Sunday, 12:00 to 23:00. Closed Mondays.</dd></div>
+            <div><dt>Shop</dt><dd>The racks are open all day; the room opens for each session.</dd></div>
+            <div><dt>Getting there</dt><dd>Five minutes from the Overground station.</dd></div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mc-foot">
+      <div class="mc-wrap">
+        <div class="mc-foot__top">
+          <p class="mc-foot__mark" aria-hidden="true">Side B</p>
+          <div class="mc-foot__side">
+            <p class="mc-foot__sample">Design sample by Mirza Hussain, October 2026. Side B, its address and its sessions are made up.</p>
+            <nav class="mc-foot__nav" aria-label="Other art directions">
+              <p>The same shop, set four other ways</p>
+              <ul>
+                <li><a href="../bauhaus/">Bauhaus</a></li>
+                <li><a href="../brutalist/">Brutalist</a></li>
+                <li><a href="../ukiyo-e/">Ukiyo-e</a></li>
+                <li><a href="../chrome/">Liquid chrome</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <dl class="mc-foot__credits">
+          <div><dt>Photograph</dt><dd><a href="https://commons.wikimedia.org/wiki/File:US_Record_Store_1963.jpg">“US Record Store 1963”</a>, Marion S. Trikosko, Library of Congress, <a href="https://creativecommons.org/publicdomain/mark/1.0/">public domain</a>, via Wikimedia Commons</dd></div>
+          <div><dt>Type</dt><dd><a href="https://fonts.google.com/specimen/League+Gothic">League Gothic</a>, The League of Moveable Type, and <a href="https://fonts.google.com/specimen/Libre+Franklin">Libre Franklin</a>, Impallari Type, both <a href="https://openfontlicense.org/">SIL Open Font License</a></dd></div>
+          <div><dt>Sound</dt><dd>Surface noise and mains hum, synthesised in your browser</dd></div>
+        </dl>
+      </div>
+    </footer>
+  </body>
+</html>

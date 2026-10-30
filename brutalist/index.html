@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side B, brutalist: records, hi-fi and a listening room (design sample)</title>
+    <meta name="description" content="A design sample: a fictional record shop and listening room, art-directed as industrial brutalism." />
+    <meta name="theme-color" content="#f0f1f3" />
+    <link rel="icon" href="../favicon.svg" />
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="../assets/brutalist-UbTMVNJq.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/transitions-Dmy-K4ic.js">
+    <link rel="modulepreload" crossorigin href="../assets/booking-QiCjPrqt.js">
+    <link rel="modulepreload" crossorigin href="../assets/SplitText-BOzMVKL-.js">
+    <link rel="modulepreload" crossorigin href="../assets/needle-fMAHz961.js">
+    <link rel="stylesheet" crossorigin href="../assets/transitions-CAaEYbZX.css">
+    <link rel="stylesheet" crossorigin href="../assets/booking-Dos5d-Vi.css">
+    <link rel="stylesheet" crossorigin href="../assets/brutalist-Dq5VUES1.css">
+  </head>
+  <body>
+    <div class="viewer">
+      <div class="viewer__inner">
+        <p class="viewer__note">Design sample.<span class="viewer__long"> Side B is a made-up shop, shown in five art directions.</span> <a href="../">About it</a></p>
+        <nav aria-label="Art directions">
+          <a href="../bauhaus/">Bauhaus</a>
+          <a href="../brutalist/" aria-current="page">Brutalist</a>
+          <a href="../mid-century/">Mid-century</a>
+          <a href="../ukiyo-e/">Ukiyo-e</a>
+          <a href="../chrome/">Liquid chrome</a>
+        </nav>
+      </div>
+    </div>
+
+    <header class="br-bar" data-bar>
+      <a class="br-mark" href="./" data-vt="mark">Side B</a>
+      <button class="br-menu" type="button" aria-expanded="false" aria-controls="br-links" data-menu>Menu</button>
+      <nav class="br-links" id="br-links" aria-label="Main">
+        <a href="#sessions">Sessions</a>
+        <a href="#room">The room</a>
+        <a href="#system">The system</a>
+        <a href="#racks">The racks</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <a class="br-cta" href="#book">Book a seat</a>
+    </header>
+
+    <main class="br-frame">
+      <!-- Hero: the headline opens up on arrival; the needle row is the instrument. -->
+      <section class="br-hero" aria-labelledby="br-title">
+        <div class="br-row">
+          <div class="br-cell br-headcell br-s12">
+            <h1 id="br-title" class="br-h1" data-vt="title" data-kinetic-hero><span class="br-line">Hear the</span> <span class="br-line br-line--split"><span class="br-word">whole</span> <span class="br-word">album.</span></span></h1>
+            <p class="br-lede">Records, hi-fi and a quiet room to hear them properly.</p>
+          </div>
+        </div>
+        <div class="br-row br-deck">
+          <div class="br-cell br-needle" data-needle-cell>
+            <button class="br-needle__btn" type="button" data-needle aria-pressed="false" aria-describedby="br-needle-note">
+              <span class="br-needle__label" data-needle-label><span class="br-line">Drop the</span> <span class="br-line">needle</span></span>
+            </button>
+            <p class="br-needle__note" id="br-needle-note">Sound on. What you hear is the crackle and hum of the room, made live in your browser. The music itself is for the room.</p>
+          </div>
+          <figure class="br-cell br-scope" data-scope>
+            <canvas class="br-scope__canvas" role="img" aria-label="An oscilloscope trace of the room sound, drawn live while the needle is down." data-scope-canvas></canvas>
+            <figcaption class="br-scope__read">
+              <span class="br-scope__state" data-scope-state>Needle up. The line is flat.</span>
+              <span class="br-scope__nums">
+                <span>Peak <output data-scope-peak>off</output></span>
+                <span>Crackles <output data-scope-ticks>0</output></span>
+              </span>
+            </figcaption>
+          </figure>
+          <div class="br-cell br-tonight">
+            <p class="br-tonight__line"><span>Tonight,</span> <strong class="br-tonight__time">20:00.</strong> <span class="br-tonight__what">Kind of Blue, both sides.</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- The week on a strip that runs with the scroll: it moves only while the reader does. -->
+      <div class="br-row br-ticker" data-ticker>
+        <p class="br-ticker__label">This week</p>
+        <div class="br-ticker__window">
+          <ul class="br-ticker__track" aria-label="This week's albums">
+            <li><span class="br-t">Tue 20:00</span> Waltz for Debby</li>
+            <li><span class="br-t">Wed 20:00</span> Moanin'</li>
+            <li class="br-ticker__tonight"><span class="br-t">Thu 20:00</span> Kind of Blue</li>
+            <li><span class="br-t">Fri 20:00</span> A Love Supreme</li>
+            <li><span class="br-t">Sat 20:00</span> Somethin' Else</li>
+            <li><span class="br-t">Sun 17:00</span> Getz/Gilberto</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Sessions: a departures board. One row a night; tonight is the red block. -->
+      <section id="sessions" class="br-section" aria-labelledby="br-sessions-h">
+        <div class="br-row">
+          <div class="br-cell br-headcell br-s8">
+            <h2 id="br-sessions-h" class="br-h2" data-kinetic style="--r: 8.6"><span class="br-line">This week</span> <span class="br-line">in the room</span></h2>
+          </div>
+          <p class="br-cell br-intro br-s4">One album a night, both sides, start to finish. Twenty-four seats.</p>
+        </div>
+        <ol class="br-board" data-board>
+          <li class="br-night">
+            <p class="br-night__date"><time datetime="2026-11-03T20:00"><span class="br-night__num">3</span> <span class="br-night__dm"><span>Tuesday</span> <span>November</span></span></time></p>
+            <p class="br-night__time">20:00</p>
+            <p class="br-night__album">Waltz for Debby</p>
+            <p class="br-night__artist">Bill Evans Trio <span class="br-night__year">1962</span></p>
+          </li>
+          <li class="br-night">
+            <p class="br-night__date"><time datetime="2026-11-04T20:00"><span class="br-night__num">4</span> <span class="br-night__dm"><span>Wednesday</span> <span>November</span></span></time></p>
+            <p class="br-night__time">20:00</p>
+            <p class="br-night__album">Moanin'</p>
+            <p class="br-night__artist">Art Blakey and the Jazz Messengers <span class="br-night__year">1958</span></p>
+          </li>
+          <li class="br-night br-night--tonight" aria-current="date">
+            <p class="br-night__date"><time datetime="2026-11-05T20:00"><span class="br-night__num">5</span> <span class="br-night__dm"><span>Thursday</span> <span>November</span></span></time></p>
+            <p class="br-night__time">20:00 <span class="br-night__flag">Tonight</span></p>
+            <p class="br-night__album">Kind of Blue</p>
+            <p class="br-night__artist">Miles Davis <span class="br-night__year">1959</span></p>
+          </li>
+          <li class="br-night">
+            <p class="br-night__date"><time datetime="2026-11-06T20:00"><span class="br-night__num">6</span> <span class="br-night__dm"><span>Friday</span> <span>November</span></span></time></p>
+            <p class="br-night__time">20:00</p>
+            <p class="br-night__album">A Love Supreme</p>
+            <p class="br-night__artist">John Coltrane <span class="br-night__year">1965</span></p>
+          </li>
+          <li class="br-night">
+            <p class="br-night__date"><time datetime="2026-11-07T20:00"><span class="br-night__num">7</span> <span class="br-night__dm"><span>Saturday</span> <span>November</span></span></time></p>
+            <p class="br-night__time">20:00</p>
+            <p class="br-night__album">Somethin' Else</p>
+            <p class="br-night__artist">Cannonball Adderley <span class="br-night__year">1958</span></p>
+          </li>
+          <li class="br-night br-night--early">
+            <p class="br-night__date"><time datetime="2026-11-08T17:00"><span class="br-night__num">8</span> <span class="br-night__dm"><span>Sunday</span> <span>November</span></span></time></p>
+            <p class="br-night__time">17:00 <span class="br-night__flag">Sunday starts early, at 17:00.</span></p>
+            <p class="br-night__album">Getz/Gilberto</p>
+            <p class="br-night__artist">Stan Getz and João Gilberto <span class="br-night__year">1964</span></p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- The room: on a wide screen the section holds still and the four rules take the stage in turn. -->
+      <section id="room" class="br-section br-room" aria-labelledby="br-room-h" data-room>
+        <div class="br-row">
+          <div class="br-cell br-headcell br-s12">
+            <h2 id="br-room-h" class="br-h2" data-kinetic style="--r: 15.6; --r-sm: 9.3"><span class="br-line">How the</span> <span class="br-line">room works</span></h2>
+          </div>
+        </div>
+        <div class="br-row br-room__body">
+          <ol class="br-cell br-room__index" aria-hidden="true" data-room-index>
+            <li>Arrive by quarter to.</li>
+            <li>Phones face down.</li>
+            <li>Quiet while it plays.</li>
+            <li>Requests on the card.</li>
+          </ol>
+          <ol class="br-room__rules" data-room-rules>
+            <li class="br-rule">
+              <h3 class="br-rule__title"><span class="br-line">Arrive by</span> <span class="br-line">quarter to.</span></h3>
+              <p class="br-rule__line">The door closes when the needle drops.</p>
+            </li>
+            <li class="br-rule">
+              <h3 class="br-rule__title"><span class="br-line">Phones</span> <span class="br-line">face down.</span></h3>
+              <p class="br-rule__line">Screens stay dark and photographs wait until the side ends.</p>
+            </li>
+            <li class="br-rule">
+              <h3 class="br-rule__title"><span class="br-line">Quiet while</span> <span class="br-line">it plays.</span></h3>
+              <p class="br-rule__line">Talk at the bar between sides, never over them.</p>
+            </li>
+            <li class="br-rule">
+              <h3 class="br-rule__title"><span class="br-line">Requests</span> <span class="br-line">on the card.</span></h3>
+              <p class="br-rule__line">Write one on the card at the bar for next month's list.</p>
+            </li>
+          </ol>
+          <div class="br-room__meter" aria-hidden="true"><span data-room-meter></span></div>
+        </div>
+      </section>
+
+      <!-- The system: a spec sheet, with the two tonearms as its picture. -->
+      <section id="system" class="br-section" aria-labelledby="br-system-h">
+        <div class="br-row">
+          <div class="br-cell br-headcell br-s7">
+            <h2 id="br-system-h" class="br-h2" data-kinetic style="--r: 8.4"><span class="br-line">The system</span></h2>
+          </div>
+          <p class="br-cell br-intro br-s5">Restored, not new. Everything in the chain is older than most of the records.</p>
+        </div>
+        <div class="br-row br-spec">
+          <figure class="br-cell br-spec__photo" data-shutter>
+            <img
+              src="../img/tonearms-1440.webp"
+              srcset="../img/tonearms-960.webp 960w, ../img/tonearms-1440.webp 1440w, ../img/tonearms-1920.webp 1920w"
+              sizes="(min-width: 60rem) 67vw, 100vw"
+              width="1920" height="768"
+              loading="lazy"
+              alt="Two tonearms resting on a spinning record, in black and white" />
+          </figure>
+          <div class="br-cell br-item br-item--decks">
+            <p class="br-item__fig">2</p>
+            <h3 class="br-item__name">Two turntables</h3>
+            <p class="br-item__line">Belt-driven decks from the early 1970s, one for each side, so nothing waits.</p>
+          </div>
+          <div class="br-cell br-item br-item--amp">
+            <p class="br-item__fig">1968</p>
+            <h3 class="br-item__name">A valve amplifier</h3>
+            <p class="br-item__line">Built in 1968 and rebuilt by hand in 2024, about eight watts a channel.</p>
+          </div>
+          <div class="br-cell br-item br-item--horns">
+            <h3 class="br-item__name br-item__name--big"><span class="br-line">Horn</span> <span class="br-line">loudspeakers</span></h3>
+            <p class="br-item__line">Large, efficient and quick, the kind the Tokyo listening cafés favoured.</p>
+          </div>
+          <div class="br-cell br-item br-item--room">
+            <p class="br-item__fig">24</p>
+            <h3 class="br-item__name">A cork-lined room</h3>
+            <p class="br-item__line">Twenty-four seats, all facing the speakers, none facing each other.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- The racks: a raw price list. Rows invert under the pointer. -->
+      <section id="racks" class="br-section" aria-labelledby="br-racks-h">
+        <div class="br-row">
+          <div class="br-cell br-headcell br-s6">
+            <h2 id="br-racks-h" class="br-h2" data-kinetic style="--r: 7.5"><span class="br-line">New in</span> <span class="br-line">the racks</span></h2>
+          </div>
+          <p class="br-cell br-intro br-s6">Second-hand, cleaned and graded by hand. Prices include a new inner sleeve.</p>
+        </div>
+        <div class="br-racks">
+          <table class="br-table">
+            <caption class="visually-hidden">New in the racks: album, artist, pressing, grade and price</caption>
+            <thead>
+              <tr><th scope="col">Album</th><th scope="col">Artist</th><th scope="col">Pressing</th><th scope="col">Grade</th><th scope="col" class="br-num">Price</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Blue Train</th><td>John Coltrane</td><td>1970s reissue</td><td>VG+</td><td class="br-num">£28</td></tr>
+              <tr><th scope="row">Mingus Ah Um</th><td>Charles Mingus</td><td>UK pressing</td><td>VG</td><td class="br-num">£24</td></tr>
+              <tr><th scope="row">Time Out</th><td>The Dave Brubeck Quartet</td><td>UK pressing</td><td>VG+</td><td class="br-num">£22</td></tr>
+              <tr><th scope="row">Speak No Evil</th><td>Wayne Shorter</td><td>1980s reissue</td><td>NM</td><td class="br-num">£32</td></tr>
+              <tr><th scope="row">Saxophone Colossus</th><td>Sonny Rollins</td><td>1970s reissue</td><td>VG+</td><td class="br-num">£26</td></tr>
+              <tr><th scope="row">Night Train</th><td>Oscar Peterson Trio</td><td>UK pressing</td><td>VG</td><td class="br-num">£18</td></tr>
+              <tr><th scope="row">Maiden Voyage</th><td>Herbie Hancock</td><td>1980s reissue</td><td>NM</td><td class="br-num">£30</td></tr>
+              <tr><th scope="row">Ellington at Newport</th><td>Duke Ellington</td><td>UK pressing</td><td>VG+</td><td class="br-num">£20</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="br-row br-racks__foot">
+          <dl class="br-cell br-grades br-s4">
+            <div><dt>NM</dt><dd>near mint</dd></div>
+            <div><dt>VG+</dt><dd>very good plus</dd></div>
+            <div><dt>VG</dt><dd>very good</dd></div>
+          </dl>
+          <figure class="br-cell br-racks__photo br-s8" data-shutter>
+            <img
+              src="../img/brutalist/racks-hands-1440.webp"
+              srcset="../img/brutalist/racks-hands-960.webp 960w, ../img/brutalist/racks-hands-1440.webp 1440w, ../img/brutalist/racks-hands-1920.webp 1920w"
+              sizes="(min-width: 60rem) 67vw, 100vw"
+              width="1920" height="893"
+              loading="lazy"
+              alt="Hands flicking through a crate of second-hand records, in black and white" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- Booking: every field is a cell of the grid. -->
+      <section id="book" class="br-section" aria-labelledby="br-book-h">
+        <div class="br-row">
+          <div class="br-cell br-headcell br-s8">
+            <h2 id="br-book-h" class="br-h2" data-kinetic style="--r: 8.6"><span class="br-line">Book a seat</span></h2>
+          </div>
+          <p class="br-cell br-intro br-s4">Seats are held until ten to eight, then given to the queue.</p>
+        </div>
+        <form class="br-form" data-booking novalidate>
+          <div class="br-field br-field--name">
+            <label for="br-name">Your name</label>
+            <input id="br-name" name="name" type="text" autocomplete="name" required />
+            <p class="br-error" id="br-name-error" data-error-for="name"></p>
+          </div>
+          <div class="br-field br-field--email">
+            <label for="br-email">Email address</label>
+            <input id="br-email" name="email" type="email" autocomplete="email" inputmode="email" required />
+            <p class="br-error" id="br-email-error" data-error-for="email"></p>
+          </div>
+          <div class="br-field br-field--session">
+            <label for="br-session">Session</label>
+            <div class="br-select">
+              <select id="br-session" name="session" required>
+                <option value="">Choose a session</option>
+                <option value="2026-11-03">Tuesday 3 November, 20:00. Waltz for Debby</option>
+                <option value="2026-11-04">Wednesday 4 November, 20:00. Moanin'</option>
+                <option value="2026-11-05">Thursday 5 November, 20:00. Kind of Blue</option>
+                <option value="2026-11-06">Friday 6 November, 20:00. A Love Supreme</option>
+                <option value="2026-11-07">Saturday 7 November, 20:00. Somethin' Else</option>
+                <option value="2026-11-08">Sunday 8 November, 17:00. Getz/Gilberto</option>
+              </select>
+              <svg class="br-select__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 8h18L12 18z" /></svg>
+            </div>
+            <p class="br-error" id="br-session-error" data-error-for="session"></p>
+          </div>
+          <div class="br-field br-field--seats">
+            <fieldset class="br-seatset">
+              <legend>Seats</legend>
+              <div class="br-seats">
+                <label class="br-seat"><input type="radio" name="seats" value="1" checked /><span>1</span></label>
+                <label class="br-seat"><input type="radio" name="seats" value="2" /><span>2</span></label>
+              </div>
+            </fieldset>
+          </div>
+          <p class="br-form__message" data-booking-message aria-live="polite"></p>
+          <button class="br-submit" type="submit">Hold my seat</button>
+        </form>
+      </section>
+
+      <!-- Visit: the address at the size of a sign on the gate. -->
+      <section id="visit" class="br-section" aria-labelledby="br-visit-h">
+        <div class="br-row">
+          <h2 id="br-visit-h" class="br-cell br-visit__h br-s12">Visit</h2>
+        </div>
+        <div class="br-row">
+          <div class="br-cell br-headcell br-s12">
+            <p class="br-address" data-kinetic style="--r: 8.6"><span class="br-line">Unit 3,</span> <span class="br-line">Larch Yard,</span> <span class="br-line">London E8</span></p>
+          </div>
+        </div>
+        <div class="br-row br-visit__facts">
+          <div class="br-cell br-s4">
+            <h3 class="br-fact__h">Hours</h3>
+            <p class="br-fact">Tuesday to Sunday, 12:00 to 23:00. Closed Mondays.</p>
+          </div>
+          <div class="br-cell br-s4">
+            <h3 class="br-fact__h">Shop</h3>
+            <p class="br-fact">The racks are open all day; the room opens for each session.</p>
+          </div>
+          <div class="br-cell br-s4">
+            <h3 class="br-fact__h">Getting there</h3>
+            <p class="br-fact">Five minutes from the Overground station.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="br-foot">
+      <div class="br-row">
+        <div class="br-cell br-s8 br-foot__notes">
+          <p class="br-foot__sample">Design sample by Mirza Hussain, October 2026. Side B, its address and its sessions are made up.</p>
+          <h2 class="br-foot__h">Credits</h2>
+          <ul class="br-credits">
+            <li>The photograph of the two tonearms is <a href="https://commons.wikimedia.org/wiki/File:Groove_and_needle_in_close_embrace_from_beginning_to_end.jpg">"Groove and needle in close embrace from beginning to end"</a> by Franz van Duns, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons. Cropped and set in black and white for this page.</li>
+            <li>The photograph of the record crates is <a href="https://commons.wikimedia.org/wiki/File:Buying_Old_Records_(Unsplash).jpg">"Buying Old Records"</a> by Seth Doyle, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via Wikimedia Commons. Cropped and set in black and white.</li>
+            <li>The typeface is <a href="https://fonts.google.com/specimen/Archivo">Archivo</a> by Omnibus-Type, <a href="https://openfontlicense.org/">SIL Open Font License 1.1</a>, via Google Fonts.</li>
+            <li>The motion runs on <a href="https://gsap.com/">GSAP</a>, under the <a href="https://gsap.com/standard-license/">GSAP standard licence</a>.</li>
+            <li>The sound is made in your browser as you listen. There is no recording.</li>
+          </ul>
+        </div>
+        <nav class="br-cell br-s4 br-foot__dirs" aria-label="Other art directions">
+          <h2 class="br-foot__h">The same shop, four other ways</h2>
+          <a href="../bauhaus/">Bauhaus</a>
+          <a href="../mid-century/">Mid-century</a>
+          <a href="../ukiyo-e/">Ukiyo-e</a>
+          <a href="../chrome/">Liquid chrome</a>
+        </nav>
+      </div>
+      <div class="br-row">
+        <div class="br-cell br-headcell br-s12 br-foot__markcell">
+          <p class="br-foot__mark" data-kinetic style="--r: 4.2" aria-hidden="true"><span class="br-line">Side B</span></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side B, ukiyo-e: records, hi-fi and a listening room (design sample)</title>
+    <meta name="description" content="A design sample: a fictional record shop and listening room after the Tokyo jazz-kissa tradition, art-directed from Edo woodblock prints." />
+    <link rel="icon" href="../favicon.svg" />
+    <script>
+      document.documentElement.classList.add("js");
+      // If the page script never arrives, show everything rather than leave it hidden.
+      setTimeout(function () { if (!window.__ukReady) document.documentElement.classList.remove("js"); }, 3000);
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap&text=%20%21%22%25%26%27%28%29%2B%2C-./0123456789%3A%3B%3FABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%C2%A3%C3%A3%C3%A9%C5%8C%C5%8D%E2%80%93%E2%80%98%E2%80%99%E2%80%9C%E2%80%9D%E4%BA%88%E4%BB%8A%E4%BD%9C%E5%85%A5%E5%86%85%E5%96%AB%E5%9C%9F%E6%96%B0%E6%97%A5%E6%9B%9C%E6%9C%A8%E6%A1%88%E6%A5%BD%E6%B0%B4%E6%B3%95%E7%81%AB%E7%B4%84%E8%8C%B6%E8%8D%B7%E9%80%B1%E9%87%91%E9%9D%A2%E9%9F%B3%E9%9F%BF" rel="stylesheet" />
+    <script type="module" crossorigin src="../assets/ukiyo-e-D3gmvriJ.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/transitions-Dmy-K4ic.js">
+    <link rel="modulepreload" crossorigin href="../assets/booking-QiCjPrqt.js">
+    <link rel="modulepreload" crossorigin href="../assets/SplitText-BOzMVKL-.js">
+    <link rel="stylesheet" crossorigin href="../assets/transitions-CAaEYbZX.css">
+    <link rel="stylesheet" crossorigin href="../assets/booking-Dos5d-Vi.css">
+    <link rel="stylesheet" crossorigin href="../assets/ukiyo-e-lt4a5rEE.css">
+  </head>
+  <body>
+    <div class="viewer">
+      <div class="viewer__inner">
+        <p class="viewer__note">Design sample.<span class="viewer__long"> Side B is a made-up shop, shown in five art directions.</span> <a href="../">About it</a></p>
+        <nav aria-label="Art directions">
+          <a href="../bauhaus/">Bauhaus</a>
+          <a href="../brutalist/">Brutalist</a>
+          <a href="../mid-century/">Mid-century</a>
+          <a href="../ukiyo-e/" aria-current="page">Ukiyo-e</a>
+          <a href="../chrome/">Liquid chrome</a>
+        </nav>
+      </div>
+    </div>
+
+    <header class="uk-nav">
+      <div class="uk-sky" aria-hidden="true" data-intro="sky"></div>
+      <a class="uk-mark" href="./" data-vt="mark">Side B</a>
+      <button class="uk-menu" type="button" aria-expanded="false" aria-controls="uk-links">Menu</button>
+      <nav id="uk-links" class="uk-links" aria-label="Main">
+        <a href="#sessions">Sessions</a>
+        <a href="#room">The room</a>
+        <a href="#system">The system</a>
+        <a href="#racks">Racks</a>
+        <a href="#book">Book a seat</a>
+        <a href="#visit">Visit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="uk-hero" aria-labelledby="uk-title">
+        <div class="uk-titleblock" data-intro="cartouche">
+          <p class="uk-cartouche" lang="ja">音楽喫茶　B面</p>
+          <span class="uk-seal" lang="ja" aria-hidden="true">B面</span>
+        </div>
+
+        <div class="uk-hero__text">
+          <h1 id="uk-title" data-vt="title" data-intro="title">Hear the whole album.</h1>
+          <p class="uk-lede" data-intro="fade">Records, hi-fi and a quiet room to hear them properly.</p>
+          <div class="uk-actions" data-intro="fade">
+            <a class="uk-btn" href="#book">Book a seat</a>
+            <p class="uk-tonight">Tonight, 20:00.<br />Kind of Blue, both sides.</p>
+          </div>
+        </div>
+
+        <figure class="uk-print">
+          <div class="uk-print__frame" data-intro="print">
+            <div class="uk-print__plate">
+              <img
+                src="../img/gakutei-shamisen-1200.webp"
+                srcset="../img/gakutei-shamisen-800.webp 800w, ../img/gakutei-shamisen-1200.webp 1200w, ../img/gakutei-shamisen-1600.webp 1600w, ../img/gakutei-shamisen-2000.webp 2000w"
+                sizes="(min-width: 60rem) 52vw, 100vw"
+                width="2000" height="2207"
+                alt="Woodblock print of a woman in a blue kimono tuning a shamisen while a cat looks at its reflection in a black lacquer box"
+                fetchpriority="high" />
+              <div class="uk-neck" role="group" aria-label="The three shamisen strings">
+                <button class="uk-string uk-string--1" type="button" data-shamisen="0"><span class="visually-hidden">Ichi no ito (first string)</span><span class="uk-string__line" aria-hidden="true"><span class="uk-string__env"></span></span></button>
+                <button class="uk-string uk-string--2" type="button" data-shamisen="1"><span class="visually-hidden">Ni no ito (second string)</span><span class="uk-string__line" aria-hidden="true"><span class="uk-string__env"></span></span></button>
+                <button class="uk-string uk-string--3" type="button" data-shamisen="2"><span class="visually-hidden">San no ito (third string)</span><span class="uk-string__line" aria-hidden="true"><span class="uk-string__env"></span></span></button>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <span class="uk-tune">
+              <span class="uk-tune__title">Tune the shamisen</span>
+              <span class="uk-tune__note">Tap a string to hear it, tuned as in Gakutei’s print.</span>
+            </span>
+            <span class="uk-tune__names" aria-hidden="true"><span data-name="0"><b>Ichi no ito</b>First string, C</span><span data-name="1"><b>Ni no ito</b>Second string, F</span><span data-name="2"><b>San no ito</b>Third string, C an octave up</span></span>
+            <span class="uk-credit">Yashima Gakutei, Woman Tuning a Shamisen and a Cat Looking at its Own Reflection, mid-1820s. The Metropolitan Museum of Art, public domain.</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="sessions" class="uk-sessions" aria-labelledby="sessions-title">
+        <div class="uk-head">
+          <p class="uk-kanji" lang="ja" aria-hidden="true" data-kanji>今週</p>
+          <div class="uk-head__text">
+            <h2 id="sessions-title">This week in the room</h2>
+            <p class="uk-intro">One album a night, both sides, start to finish. Twenty-four seats.</p>
+          </div>
+        </div>
+
+        <ol class="uk-pillars">
+          <li class="uk-pillar">
+            <p class="uk-pillar__day"><span class="uk-pillar__kanji" lang="ja" aria-hidden="true">火曜</span><span>Tuesday 3 November</span></p>
+            <p class="uk-pillar__time">20:00</p>
+            <h3 class="uk-pillar__album">Waltz for Debby</h3>
+            <p class="uk-pillar__artist">Bill Evans Trio, 1962</p>
+          </li>
+          <li class="uk-pillar">
+            <p class="uk-pillar__day"><span class="uk-pillar__kanji" lang="ja" aria-hidden="true">水曜</span><span>Wednesday 4 November</span></p>
+            <p class="uk-pillar__time">20:00</p>
+            <h3 class="uk-pillar__album">Moanin’</h3>
+            <p class="uk-pillar__artist">Art Blakey and the Jazz Messengers, 1958</p>
+          </li>
+          <li class="uk-pillar uk-pillar--tonight">
+            <p class="uk-pillar__day"><span class="uk-pillar__kanji" lang="ja" aria-hidden="true">木曜</span><span>Thursday 5 November</span></p>
+            <p class="uk-pillar__time">20:00</p>
+            <h3 class="uk-pillar__album">Kind of Blue</h3>
+            <p class="uk-pillar__artist">Miles Davis, 1959</p>
+            <p class="uk-pillar__note">Tonight</p>
+          </li>
+          <li class="uk-pillar">
+            <p class="uk-pillar__day"><span class="uk-pillar__kanji" lang="ja" aria-hidden="true">金曜</span><span>Friday 6 November</span></p>
+            <p class="uk-pillar__time">20:00</p>
+            <h3 class="uk-pillar__album">A Love Supreme</h3>
+            <p class="uk-pillar__artist">John Coltrane, 1965</p>
+          </li>
+          <li class="uk-pillar">
+            <p class="uk-pillar__day"><span class="uk-pillar__kanji" lang="ja" aria-hidden="true">土曜</span><span>Saturday 7 November</span></p>
+            <p class="uk-pillar__time">20:00</p>
+            <h3 class="uk-pillar__album">Somethin’ Else</h3>
+            <p class="uk-pillar__artist">Cannonball Adderley, 1958</p>
+          </li>
+          <li class="uk-pillar uk-pillar--early">
+            <p class="uk-pillar__day"><span class="uk-pillar__kanji" lang="ja" aria-hidden="true">日曜</span><span>Sunday 8 November</span></p>
+            <p class="uk-pillar__time">17:00</p>
+            <h3 class="uk-pillar__album">Getz/Gilberto</h3>
+            <p class="uk-pillar__artist">Stan Getz and João Gilberto, 1964</p>
+            <p class="uk-pillar__note">Sunday starts early, at 17:00.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="room" class="uk-room" aria-labelledby="room-title">
+        <div class="uk-scroll" data-emaki>
+          <div class="uk-head uk-head--room">
+            <p class="uk-kanji" lang="ja" aria-hidden="true" data-kanji>作法</p>
+            <div class="uk-head__text">
+              <h2 id="room-title">How the room works</h2>
+            </div>
+          </div>
+          <div class="uk-scroll__view">
+            <div class="uk-scroll__track" data-emaki-track>
+              <figure class="uk-panel uk-panel--wide">
+                <div class="uk-panel__frame"><img src="../img/ukiyo-e/hiroshige-karasaki-1600.webp" srcset="../img/ukiyo-e/hiroshige-karasaki-1000.webp 1000w, ../img/ukiyo-e/hiroshige-karasaki-1600.webp 1600w, ../img/ukiyo-e/hiroshige-karasaki-2400.webp 2400w" sizes="(min-width: 60rem) 70vw, 100vw" width="2400" height="1503" loading="lazy" alt="Heavy rain falls in grey lines over a vast pine tree beside a lake, with two small boats on deep blue water" /></div>
+                <figcaption>Utagawa Hiroshige, Night Rain at Karasaki, from Eight Views of Ōmi, about 1835.</figcaption>
+              </figure>
+              <div class="uk-rule" data-rule>
+                <h3>Arrive by quarter to.</h3>
+                <p>The door closes when the needle drops.</p>
+              </div>
+              <figure class="uk-panel uk-panel--wide">
+                <div class="uk-panel__frame"><img src="../img/ukiyo-e/toyoharu-theatres-1600.webp" srcset="../img/ukiyo-e/toyoharu-theatres-1000.webp 1000w, ../img/ukiyo-e/toyoharu-theatres-1600.webp 1600w, ../img/ukiyo-e/toyoharu-theatres-2400.webp 2400w" sizes="(min-width: 60rem) 70vw, 100vw" width="2400" height="1613" loading="lazy" alt="A crowd in bright kimonos fills a street of theatres under a black night sky, seen in deep perspective" /></div>
+                <figcaption>Utagawa Toyoharu, Perspective Print of the Theaters in Sakaichō and Fukiyachō on Opening Night, about 1780.</figcaption>
+              </figure>
+              <div class="uk-rule" data-rule>
+                <h3>Phones face down.</h3>
+                <p>Screens stay dark and photographs wait until the side ends.</p>
+              </div>
+              <figure class="uk-panel uk-panel--wide">
+                <div class="uk-panel__frame"><img src="../img/ukiyo-e/shigenobu-music-1600.webp" srcset="../img/ukiyo-e/shigenobu-music-1000.webp 1000w, ../img/ukiyo-e/shigenobu-music-1600.webp 1600w, ../img/ukiyo-e/shigenobu-music-2400.webp 2400w" sizes="(min-width: 60rem) 70vw, 100vw" width="2400" height="1790" loading="lazy" alt="Three women in patterned kimonos with a koto and a shamisen, beneath lines of brushed poems" /></div>
+                <figcaption>Yanagawa Shigenobu, Women Playing Music, 19th century.</figcaption>
+              </figure>
+              <div class="uk-rule" data-rule>
+                <h3>Quiet while it plays.</h3>
+                <p>Talk at the bar between sides, never over them.</p>
+              </div>
+              <figure class="uk-panel uk-panel--tall">
+                <div class="uk-panel__frame"><img src="../img/ukiyo-e/utamaro-snow-1100.webp" srcset="../img/ukiyo-e/utamaro-snow-700.webp 700w, ../img/ukiyo-e/utamaro-snow-1100.webp 1100w, ../img/ukiyo-e/utamaro-snow-1600.webp 1600w" sizes="(min-width: 60rem) 30vw, 100vw" width="1600" height="2426" loading="lazy" alt="A geisha under an umbrella walks through falling snow at night beside an attendant carrying a lantern" /></div>
+                <figcaption>Kitagawa Utamaro, Geisha Walking through the Snow at Night, about 1797.</figcaption>
+              </figure>
+              <div class="uk-rule uk-rule--last" data-rule>
+                <h3>Requests on the card.</h3>
+                <p>Write one on the card at the bar for next month’s list.</p>
+              </div>
+            </div>
+          </div>
+          <div class="uk-rod" aria-hidden="true"><span class="uk-rod__fill" data-emaki-rod></span></div>
+        </div>
+      </section>
+
+      <section id="system" class="uk-system" aria-labelledby="system-title">
+        <figure class="uk-system__print" data-system-print>
+          <div class="uk-system__frame"><img src="../img/ukiyo-e/eishi-shamisen-1600.webp" srcset="../img/ukiyo-e/eishi-shamisen-1000.webp 1000w, ../img/ukiyo-e/eishi-shamisen-1600.webp 1600w, ../img/ukiyo-e/eishi-shamisen-2400.webp 2400w" sizes="(min-width: 60rem) 56vw, 100vw" width="2400" height="1593" loading="lazy" alt="A shamisen laid at rest beside its plectrum and an open songbook, on pale paper with brushed verse" /></div>
+          <figcaption>Chōbunsai Eishi, Shamisen, Plectrum and a Book, Edo period. The Metropolitan Museum of Art, public domain.</figcaption>
+        </figure>
+        <div class="uk-system__text">
+          <div class="uk-head">
+            <p class="uk-kanji" lang="ja" aria-hidden="true" data-kanji>音響</p>
+            <div class="uk-head__text">
+              <h2 id="system-title">The system</h2>
+              <p class="uk-intro">Restored, not new. Everything in the chain is older than most of the records.</p>
+            </div>
+          </div>
+          <dl class="uk-chain">
+            <div data-chain><dt>Two turntables</dt><dd>Belt-driven decks from the early 1970s, one for each side, so nothing waits.</dd></div>
+            <div data-chain><dt>A valve amplifier</dt><dd>Built in 1968 and rebuilt by hand in 2024, about eight watts a channel.</dd></div>
+            <div data-chain><dt>Horn loudspeakers</dt><dd>Large, efficient and quick, the kind the Tokyo listening cafés favoured.</dd></div>
+            <div data-chain><dt>A cork-lined room</dt><dd>Twenty-four seats, all facing the speakers, none facing each other.</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="racks" class="uk-racks" aria-labelledby="racks-title">
+        <div class="uk-head uk-racks__head">
+          <p class="uk-kanji" lang="ja" aria-hidden="true" data-kanji>新入荷</p>
+          <div class="uk-head__text">
+            <h2 id="racks-title">New in the racks</h2>
+            <p class="uk-intro">Second-hand, cleaned and graded by hand. Prices include a new inner sleeve.</p>
+          </div>
+        </div>
+        <div class="uk-racks__body">
+        <table class="uk-table" role="table">
+          <thead role="rowgroup">
+            <tr role="row"><th scope="col" role="columnheader">Album</th><th scope="col" role="columnheader">Artist</th><th scope="col" role="columnheader">Pressing</th><th scope="col" role="columnheader">Grade</th><th scope="col" role="columnheader" class="uk-num">Price</th></tr>
+          </thead>
+          <tbody role="rowgroup">
+            <tr role="row" data-row><td role="cell" class="uk-album">Blue Train</td><td role="cell">John Coltrane</td><td role="cell">1970s reissue</td><td role="cell"><abbr title="very good plus">VG+</abbr></td><td role="cell" class="uk-num">£28</td></tr>
+            <tr role="row" data-row><td role="cell" class="uk-album">Mingus Ah Um</td><td role="cell">Charles Mingus</td><td role="cell">UK pressing</td><td role="cell"><abbr title="very good">VG</abbr></td><td role="cell" class="uk-num">£24</td></tr>
+            <tr role="row" data-row><td role="cell" class="uk-album">Time Out</td><td role="cell">The Dave Brubeck Quartet</td><td role="cell">UK pressing</td><td role="cell"><abbr title="very good plus">VG+</abbr></td><td role="cell" class="uk-num">£22</td></tr>
+            <tr role="row" data-row><td role="cell" class="uk-album">Speak No Evil</td><td role="cell">Wayne Shorter</td><td role="cell">1980s reissue</td><td role="cell"><abbr title="near mint">NM</abbr></td><td role="cell" class="uk-num">£32</td></tr>
+            <tr role="row" data-row><td role="cell" class="uk-album">Saxophone Colossus</td><td role="cell">Sonny Rollins</td><td role="cell">1970s reissue</td><td role="cell"><abbr title="very good plus">VG+</abbr></td><td role="cell" class="uk-num">£26</td></tr>
+            <tr role="row" data-row><td role="cell" class="uk-album">Night Train</td><td role="cell">Oscar Peterson Trio</td><td role="cell">UK pressing</td><td role="cell"><abbr title="very good">VG</abbr></td><td role="cell" class="uk-num">£18</td></tr>
+            <tr role="row" data-row><td role="cell" class="uk-album">Maiden Voyage</td><td role="cell">Herbie Hancock</td><td role="cell">1980s reissue</td><td role="cell"><abbr title="near mint">NM</abbr></td><td role="cell" class="uk-num">£30</td></tr>
+            <tr role="row" data-row><td role="cell" class="uk-album">Ellington at Newport</td><td role="cell">Duke Ellington</td><td role="cell">UK pressing</td><td role="cell"><abbr title="very good plus">VG+</abbr></td><td role="cell" class="uk-num">£20</td></tr>
+          </tbody>
+        </table>
+        <p class="uk-grades">Grades: NM near mint, VG+ very good plus, VG very good.</p>
+        </div>
+      </section>
+
+      <section id="book" class="uk-book" aria-labelledby="book-title">
+        <div class="uk-head">
+          <p class="uk-kanji" lang="ja" aria-hidden="true" data-kanji>予約</p>
+          <div class="uk-head__text">
+            <h2 id="book-title">Book a seat</h2>
+            <p class="uk-intro">Seats are held until ten to eight, then given to the queue.</p>
+          </div>
+        </div>
+        <figure class="uk-book__print">
+          <div class="uk-book__frame"><img src="../img/ukiyo-e/hokuba-hurrying-1100.webp" srcset="../img/ukiyo-e/hokuba-hurrying-700.webp 700w, ../img/ukiyo-e/hokuba-hurrying-1100.webp 1100w, ../img/ukiyo-e/hokuba-hurrying-1600.webp 1600w" sizes="(min-width: 60rem) 30vw, 100vw" width="1600" height="1767" loading="lazy" alt="A young geisha hurries along a river path beside her maid, who carries a black shamisen box, beneath lines of brushed verse" /></div>
+          <figcaption>Teisai Hokuba, Geisha Girl Hurrying with a Maid Servant Who is Carrying a Shamisen Box, Edo period. The Metropolitan Museum of Art, public domain.</figcaption>
+        </figure>
+        <form class="uk-form" data-booking novalidate>
+          <div class="uk-field">
+            <label for="bk-name">Your name</label>
+            <input id="bk-name" name="name" type="text" autocomplete="name" required />
+            <p class="uk-error" id="bk-name-error" data-error-for="name"></p>
+          </div>
+          <div class="uk-field">
+            <label for="bk-email">Email address</label>
+            <input id="bk-email" name="email" type="email" autocomplete="email" required />
+            <p class="uk-error" id="bk-email-error" data-error-for="email"></p>
+          </div>
+          <div class="uk-field uk-field--wide">
+            <label for="bk-session">Session</label>
+            <select id="bk-session" name="session" required>
+              <option value="">Choose a session</option>
+              <option value="2026-11-03">Tuesday 3 November, 20:00, Waltz for Debby</option>
+              <option value="2026-11-04">Wednesday 4 November, 20:00, Moanin’</option>
+              <option value="2026-11-05">Thursday 5 November, 20:00, Kind of Blue</option>
+              <option value="2026-11-06">Friday 6 November, 20:00, A Love Supreme</option>
+              <option value="2026-11-07">Saturday 7 November, 20:00, Somethin’ Else</option>
+              <option value="2026-11-08">Sunday 8 November, 17:00, Getz/Gilberto</option>
+            </select>
+            <p class="uk-error" id="bk-session-error" data-error-for="session"></p>
+          </div>
+          <div class="uk-field">
+            <label for="bk-seats">Seats</label>
+            <select id="bk-seats" name="seats" required>
+              <option value="1">1 seat</option>
+              <option value="2">2 seats</option>
+            </select>
+            <p class="uk-error" id="bk-seats-error" data-error-for="seats"></p>
+          </div>
+          <div class="uk-form__end">
+            <button class="uk-btn" type="submit">Hold my seat</button>
+            <p class="uk-form__message" data-booking-message aria-live="polite"></p>
+          </div>
+        </form>
+      </section>
+
+      <section id="visit" class="uk-visit" aria-labelledby="visit-title">
+        <div class="uk-visit__card" data-visit-card>
+          <p class="uk-visit__kanji" lang="ja" aria-hidden="true">案内</p>
+          <h2 id="visit-title">Visit</h2>
+          <p class="uk-visit__address">Unit 3, Larch Yard<br />London E8</p>
+          <p class="uk-visit__madeup">(made up)</p>
+        </div>
+        <div class="uk-visit__text">
+          <p class="uk-visit__hours">Tuesday to Sunday,<br />12:00 to 23:00.</p>
+          <p class="uk-visit__closed">Closed Mondays.</p>
+          <dl class="uk-visit__facts">
+            <div><dt>Shop</dt><dd>The racks are open all day; the room opens for each session.</dd></div>
+            <div><dt>Getting there</dt><dd>Five minutes from the Overground station.</dd></div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer class="uk-foot">
+      <div class="uk-foot__inner">
+        <div class="uk-foot__lead">
+          <p class="uk-foot__mark">Side B</p>
+          <p>Design sample by Mirza Hussain, October 2026. Side B, its address and its sessions are made up.</p>
+          <nav aria-label="Other art directions" class="uk-foot__dirs">
+            <a href="../bauhaus/">Bauhaus</a>
+            <a href="../brutalist/">Brutalist</a>
+            <a href="../mid-century/">Mid-century</a>
+            <a href="../chrome/">Liquid chrome</a>
+          </nav>
+        </div>
+        <div class="uk-foot__credits">
+          <h2 class="uk-foot__title">Credits</h2>
+          <p>Every print is from The Metropolitan Museum of Art, Open Access, and in the public domain.</p>
+          <ul>
+            <li><a href="https://www.metmuseum.org/art/collection/search/54124">Yashima Gakutei, Woman Tuning a Shamisen and a Cat Looking at its Own Reflection, mid-1820s</a></li>
+            <li><a href="https://www.metmuseum.org/art/collection/search/36531">Utagawa Hiroshige, Night Rain at Karasaki, from the series Eight Views of Ōmi, about 1835</a></li>
+            <li><a href="https://www.metmuseum.org/art/collection/search/36669">Utagawa Toyoharu, Perspective Print (Uki-e) of the Theaters in Sakaichō and Fukiyachō on Opening Night, about 1780</a></li>
+            <li><a href="https://www.metmuseum.org/art/collection/search/53968">Yanagawa Shigenobu, Women Playing Music, 19th century</a></li>
+            <li><a href="https://www.metmuseum.org/art/collection/search/55862">Kitagawa Utamaro, Geisha Walking through the Snow at Night, about 1797</a></li>
+            <li><a href="https://www.metmuseum.org/art/collection/search/55102">Chōbunsai Eishi, Shamisen, Plectrum and a Book, Edo period</a></li>
+            <li><a href="https://www.metmuseum.org/art/collection/search/53982">Teisai Hokuba, Geisha Girl Hurrying with a Maid Servant Who is Carrying a Shamisen Box, Edo period</a></li>
+          </ul>
+          <p>The type is <a href="https://fonts.google.com/specimen/Shippori+Mincho">Shippori Mincho</a> and <a href="https://fonts.google.com/specimen/Zen+Kaku+Gothic+New">Zen Kaku Gothic New</a>, from Google Fonts under the SIL Open Font License. The shamisen is made live in your browser, and no recording is used.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

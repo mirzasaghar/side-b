@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side B, liquid chrome: records, hi-fi and a listening room (design sample)</title>
+    <meta name="description" content="A design sample: a fictional record shop and listening room, art-directed in liquid chrome around one rendered record." />
+    <meta name="theme-color" content="#0b0c10" />
+    <link rel="icon" href="../favicon.svg" />
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300..700&family=Hanken+Grotesk:wght@400..600&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="../img/chrome/record-1600.webp" imagesrcset="../img/chrome/record-800.webp 800w, ../img/chrome/record-1200.webp 1200w, ../img/chrome/record-1600.webp 1600w, ../img/chrome/record-2400.webp 2400w" imagesizes="(min-width: 60rem) 60vw, 100vw" fetchpriority="high" />
+    <script type="module" crossorigin src="../assets/chrome-CLNPFT-H.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/transitions-Dmy-K4ic.js">
+    <link rel="modulepreload" crossorigin href="../assets/booking-QiCjPrqt.js">
+    <link rel="modulepreload" crossorigin href="../assets/needle-fMAHz961.js">
+    <link rel="stylesheet" crossorigin href="../assets/transitions-CAaEYbZX.css">
+    <link rel="stylesheet" crossorigin href="../assets/booking-Dos5d-Vi.css">
+    <link rel="stylesheet" crossorigin href="../assets/chrome-DYlmUs1Q.css">
+  </head>
+  <body>
+    <div class="viewer">
+      <div class="viewer__inner">
+        <p class="viewer__note">Design sample.<span class="viewer__long"> Side B is a made-up shop, shown in five art directions.</span> <a href="../">About it</a></p>
+        <nav aria-label="Art directions">
+          <a href="../bauhaus/">Bauhaus</a>
+          <a href="../brutalist/">Brutalist</a>
+          <a href="../mid-century/">Mid-century</a>
+          <a href="../ukiyo-e/">Ukiyo-e</a>
+          <a href="../chrome/" aria-current="page">Liquid chrome</a>
+        </nav>
+      </div>
+    </div>
+
+    <header class="cr-nav" data-head>
+      <div class="cr-nav__inner">
+        <a class="cr-mark" href="#top" data-vt="mark">Side B</a>
+        <button class="cr-mini" type="button" data-needle-mini hidden>Lift the needle</button>
+        <button class="cr-menu" type="button" aria-expanded="false" aria-controls="cr-sections" data-menu>Menu</button>
+        <nav class="cr-sections" id="cr-sections" aria-label="Sections">
+          <a href="#sessions">Sessions</a>
+          <a href="#room">The room</a>
+          <a href="#system">The system</a>
+          <a href="#racks">Racks</a>
+          <a href="#book">Book a seat</a>
+          <a href="#visit">Visit</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="cr-hero" aria-labelledby="cr-title" data-hero>
+        <div class="cr-hero__text" data-hero-text>
+          <h1 id="cr-title" data-vt="title">Hear the whole album.</h1>
+          <p class="cr-lede">Records, hi-fi and a quiet room to hear them properly.</p>
+          <div class="cr-actions">
+            <a class="cr-btn" href="#book">Book a seat</a>
+            <button class="cr-needle" type="button" data-needle aria-pressed="false">
+              <span class="cr-needle__arm" aria-hidden="true"></span><span data-needle-label>Drop the needle</span>
+            </button>
+          </div>
+          <p class="cr-small">Sound on. What you hear is the crackle and hum of the room, made live in your browser. The music itself is for the room.</p>
+          <p class="cr-tonight"><span>Tonight, 20:00.</span> Kind of Blue, both sides.</p>
+        </div>
+
+        <figure class="cr-deck" data-deck>
+          <div class="cr-deck__move" data-deck-move>
+            <div class="cr-disc" data-disc data-frames="48" data-frame-box="-0.1677 -0.1087 1.228" data-cx="0.5045" data-cy="0.299" data-squash="0.545" data-sign="-1" data-spin-large="/img/chrome/spin-1200/" data-spin-small="/img/chrome/spin-600/">
+              <img
+                class="cr-disc__still"
+                src="../img/chrome/record-1600.webp"
+                srcset="../img/chrome/record-800.webp 800w, ../img/chrome/record-1200.webp 1200w, ../img/chrome/record-1600.webp 1600w, ../img/chrome/record-2400.webp 2400w"
+                sizes="(min-width: 60rem) 60vw, 100vw"
+                width="1200" height="1200"
+                alt="A mirror-chrome LP, tilted towards you, whose rim is melting into drops of liquid metal"
+                fetchpriority="high" />
+              <canvas class="cr-disc__frames" aria-hidden="true"></canvas>
+            </div>
+          </div>
+          <figcaption class="cr-deck__cap" data-deck-cap>
+            <span class="cr-rpm" aria-hidden="true"><span data-rpm>0</span> rpm</span>
+            <span class="cr-hint">Drag the record to turn it.</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="cr-sessions" id="sessions" aria-labelledby="sessions-title">
+        <div class="cr-sessions__head" data-sessions-head>
+          <h2 id="sessions-title">This week in the room</h2>
+          <p class="cr-intro">One album a night, both sides, start to finish. Twenty-four seats.</p>
+        </div>
+        <ol class="cr-dates" data-dates>
+          <li class="cr-date">
+            <p class="cr-date__when"><span class="visually-hidden">Tuesday 3 November, 20:00</span><span class="cr-date__num" aria-hidden="true">3</span><span class="cr-date__day" aria-hidden="true">Tuesday <br />November</span></p>
+            <p class="cr-date__album"><cite>Waltz for Debby</cite><span>Bill Evans Trio, 1962</span></p>
+            <p class="cr-date__time" aria-hidden="true">20:00</p>
+          </li>
+          <li class="cr-date">
+            <p class="cr-date__when"><span class="visually-hidden">Wednesday 4 November, 20:00</span><span class="cr-date__num" aria-hidden="true">4</span><span class="cr-date__day" aria-hidden="true">Wednesday <br />November</span></p>
+            <p class="cr-date__album"><cite>Moanin'</cite><span>Art Blakey and the Jazz Messengers, 1958</span></p>
+            <p class="cr-date__time" aria-hidden="true">20:00</p>
+          </li>
+          <li class="cr-date cr-date--tonight">
+            <p class="cr-date__when"><span class="visually-hidden">Tonight, Thursday 5 November, 20:00</span><span class="cr-date__num" aria-hidden="true">5</span><span class="cr-date__day" aria-hidden="true">Thursday <br />November</span></p>
+            <p class="cr-date__album"><cite>Kind of Blue</cite><span>Miles Davis, 1959</span></p>
+            <p class="cr-date__time" aria-hidden="true">20:00<span>Tonight</span></p>
+          </li>
+          <li class="cr-date">
+            <p class="cr-date__when"><span class="visually-hidden">Friday 6 November, 20:00</span><span class="cr-date__num" aria-hidden="true">6</span><span class="cr-date__day" aria-hidden="true">Friday <br />November</span></p>
+            <p class="cr-date__album"><cite>A Love Supreme</cite><span>John Coltrane, 1965</span></p>
+            <p class="cr-date__time" aria-hidden="true">20:00</p>
+          </li>
+          <li class="cr-date">
+            <p class="cr-date__when"><span class="visually-hidden">Saturday 7 November, 20:00</span><span class="cr-date__num" aria-hidden="true">7</span><span class="cr-date__day" aria-hidden="true">Saturday <br />November</span></p>
+            <p class="cr-date__album"><cite>Somethin' Else</cite><span>Cannonball Adderley, 1958</span></p>
+            <p class="cr-date__time" aria-hidden="true">20:00</p>
+          </li>
+          <li class="cr-date">
+            <p class="cr-date__when"><span class="visually-hidden">Sunday 8 November, 17:00</span><span class="cr-date__num" aria-hidden="true">8</span><span class="cr-date__day" aria-hidden="true">Sunday <br />November</span></p>
+            <p class="cr-date__album"><cite>Getz/Gilberto</cite><span>Stan Getz and João Gilberto, 1964</span></p>
+            <p class="cr-date__time" aria-hidden="true">17:00</p>
+          </li>
+        </ol>
+        <p class="cr-note">Sunday starts early, at 17:00.</p>
+      </section>
+
+      <section class="cr-room" id="room" aria-labelledby="room-title">
+        <h2 id="room-title">How the room works</h2>
+        <ol class="cr-rules" data-reveal-group>
+          <li><h3>Arrive by quarter to.</h3><p>The door closes when the needle drops.</p></li>
+          <li><h3>Phones face down.</h3><p>Screens stay dark and photographs wait until the side ends.</p></li>
+          <li><h3>Quiet while it plays.</h3><p>Talk at the bar between sides, never over them.</p></li>
+          <li><h3>Requests on the card.</h3><p>Write one on the card at the bar for next month's list.</p></li>
+        </ol>
+      </section>
+
+      <section class="cr-system" id="system" aria-labelledby="system-title">
+        <div class="cr-system__head">
+          <h2 id="system-title">The system</h2>
+          <p class="cr-intro">Restored, not new. Everything in the chain is older than most of the records.</p>
+        </div>
+        <figure class="cr-macro" data-macro>
+          <div class="cr-macro__frame" data-macro-frame>
+            <picture>
+              <source media="(max-width: 40rem)" srcset="../img/chrome/melt-tall-600.webp 600w, ../img/chrome/melt-tall-900.webp 900w" sizes="100vw" width="900" height="775" />
+              <img
+                src="../img/chrome/melt-wide-1500.webp"
+                srcset="../img/chrome/melt-wide-960.webp 960w, ../img/chrome/melt-wide-1500.webp 1500w"
+                sizes="(min-width: 95rem) 1520px, 100vw"
+                width="1500" height="625"
+                loading="lazy" decoding="async"
+                alt="Close up of the rendered record, with fine grooves running out to the rim, where the chrome turns liquid and falls in drops"
+                data-macro-img />
+            </picture>
+          </div>
+          <figcaption>Detail from the render, at the rim where the grooves give way to liquid metal.</figcaption>
+        </figure>
+        <dl class="cr-spec" data-reveal-group>
+          <div><dt>Two turntables</dt><dd>Belt-driven decks from the early 1970s, one for each side, so nothing waits.</dd></div>
+          <div><dt>A valve amplifier</dt><dd>Built in 1968 and rebuilt by hand in 2024, about eight watts a channel.</dd></div>
+          <div><dt>Horn loudspeakers</dt><dd>Large, efficient and quick, the kind the Tokyo listening cafés favoured.</dd></div>
+          <div><dt>A cork-lined room</dt><dd>Twenty-four seats, all facing the speakers, none facing each other.</dd></div>
+        </dl>
+      </section>
+
+      <section class="cr-racks" id="racks" aria-labelledby="racks-title">
+        <div class="cr-racks__head">
+          <h2 id="racks-title">New in the racks</h2>
+          <p class="cr-intro">Second-hand, cleaned and graded by hand. Prices include a new inner sleeve.</p>
+        </div>
+        <table class="cr-table">
+          <caption class="visually-hidden">Records new in the racks, with pressing, grade and price</caption>
+          <thead>
+            <tr><th scope="col">Album</th><th scope="col">Artist</th><th scope="col">Pressing</th><th scope="col">Grade</th><th scope="col" class="cr-num">Price</th></tr>
+          </thead>
+          <tbody data-rows>
+            <tr><th scope="row">Blue Train</th><td>John Coltrane</td><td>1970s reissue</td><td><abbr title="very good plus">VG+</abbr></td><td class="cr-num">£28</td></tr>
+            <tr><th scope="row">Mingus Ah Um</th><td>Charles Mingus</td><td>UK pressing</td><td><abbr title="very good">VG</abbr></td><td class="cr-num">£24</td></tr>
+            <tr><th scope="row">Time Out</th><td>The Dave Brubeck Quartet</td><td>UK pressing</td><td><abbr title="very good plus">VG+</abbr></td><td class="cr-num">£22</td></tr>
+            <tr><th scope="row">Speak No Evil</th><td>Wayne Shorter</td><td>1980s reissue</td><td><abbr title="near mint">NM</abbr></td><td class="cr-num">£32</td></tr>
+            <tr><th scope="row">Saxophone Colossus</th><td>Sonny Rollins</td><td>1970s reissue</td><td><abbr title="very good plus">VG+</abbr></td><td class="cr-num">£26</td></tr>
+            <tr><th scope="row">Night Train</th><td>Oscar Peterson Trio</td><td>UK pressing</td><td><abbr title="very good">VG</abbr></td><td class="cr-num">£18</td></tr>
+            <tr><th scope="row">Maiden Voyage</th><td>Herbie Hancock</td><td>1980s reissue</td><td><abbr title="near mint">NM</abbr></td><td class="cr-num">£30</td></tr>
+            <tr><th scope="row">Ellington at Newport</th><td>Duke Ellington</td><td>UK pressing</td><td><abbr title="very good plus">VG+</abbr></td><td class="cr-num">£20</td></tr>
+          </tbody>
+        </table>
+        <p class="cr-grades">Grades: NM near mint, VG+ very good plus, VG very good.</p>
+      </section>
+
+      <section class="cr-book" id="book" aria-labelledby="book-title">
+        <div class="cr-book__head">
+          <h2 id="book-title">Book a seat</h2>
+          <p class="cr-intro">Seats are held until ten to eight, then given to the queue.</p>
+        </div>
+        <form class="cr-form" data-booking novalidate>
+          <div class="cr-field">
+            <label for="bk-name">Your name</label>
+            <input id="bk-name" name="name" type="text" autocomplete="name" required />
+            <p class="cr-error" id="bk-name-error" data-error-for="name"></p>
+          </div>
+          <div class="cr-field">
+            <label for="bk-email">Email address</label>
+            <input id="bk-email" name="email" type="email" autocomplete="email" inputmode="email" required />
+            <p class="cr-error" id="bk-email-error" data-error-for="email"></p>
+          </div>
+          <div class="cr-field cr-field--wide">
+            <label for="bk-session">Session</label>
+            <div class="cr-select">
+              <select id="bk-session" name="session" required>
+                <option value="">Choose a session</option>
+                <option value="2026-11-03">Tuesday 3 November, 20:00. Waltz for Debby</option>
+                <option value="2026-11-04">Wednesday 4 November, 20:00. Moanin'</option>
+                <option value="2026-11-05">Thursday 5 November, 20:00. Kind of Blue</option>
+                <option value="2026-11-06">Friday 6 November, 20:00. A Love Supreme</option>
+                <option value="2026-11-07">Saturday 7 November, 20:00. Somethin' Else</option>
+                <option value="2026-11-08">Sunday 8 November, 17:00. Getz/Gilberto</option>
+              </select>
+            </div>
+            <p class="cr-error" id="bk-session-error" data-error-for="session"></p>
+          </div>
+          <fieldset class="cr-field cr-seats">
+            <legend>Seats</legend>
+            <div class="cr-seats__opts">
+              <label><input type="radio" name="seats" value="1" checked /><span>1</span></label>
+              <label><input type="radio" name="seats" value="2" /><span>2</span></label>
+            </div>
+          </fieldset>
+          <div class="cr-submit">
+            <button class="cr-btn" type="submit">Hold my seat</button>
+            <p class="cr-status" data-booking-message aria-live="polite"></p>
+          </div>
+        </form>
+      </section>
+
+      <section class="cr-visit" id="visit" aria-labelledby="visit-title">
+        <h2 id="visit-title">Visit</h2>
+        <address class="cr-address" data-address>
+          <span>Unit 3, Larch Yard,</span>
+          <span>London E8</span>
+          <small>(made up)</small>
+        </address>
+        <dl class="cr-facts">
+          <div><dt>Hours</dt><dd>Tuesday to Sunday, 12:00 to 23:00. Closed Mondays.</dd></div>
+          <div><dt>Shop</dt><dd>The racks are open all day; the room opens for each session.</dd></div>
+          <div><dt>Getting there</dt><dd>Five minutes from the Overground station.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="cr-foot">
+      <div class="cr-foot__inner">
+        <p class="cr-foot__sample">Design sample by Mirza Hussain, October 2026. Side B, its address and its sessions are made up.</p>
+        <div class="cr-foot__credits">
+          <h2>Credits</h2>
+          <ul>
+            <li>Chrome record modelled and rendered in Blender for this sample.</li>
+            <li>Lit with the HDRI Studio Small 09, by Sergej Majboroda, from <a href="https://polyhaven.com/a/studio_small_09">Poly Haven</a>, CC0.</li>
+            <li>Set in <a href="https://fonts.google.com/specimen/Unbounded">Unbounded</a> and <a href="https://fonts.google.com/specimen/Hanken+Grotesk">Hanken Grotesk</a>, both under the SIL Open Font License, from Google Fonts.</li>
+          </ul>
+        </div>
+        <nav class="cr-foot__styles" aria-label="Other art directions">
+          <h2>The same shop, four other ways</h2>
+          <ul>
+            <li><a href="../bauhaus/">Bauhaus</a></li>
+            <li><a href="../brutalist/">Brutalist</a></li>
+            <li><a href="../mid-century/">Mid-century</a></li>
+            <li><a href="../ukiyo-e/">Ukiyo-e</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -17,7 +17,7 @@ Everything on the pages is either our own work or openly licensed. Nothing needs
 - Kitagawa Utamaro, *Geisha Walking through the Snow at Night*, ca. 1797. The Metropolitan Museum of Art, public domain. https://www.metmuseum.org/art/collection/search/55862
 
 ## 3D render (Liquid chrome page)
-- The chrome record was modelled and rendered in Blender 4.5 for this sample (scripts in render/). Our own work.
+- The chrome record and its tonearm were modelled and rendered in Blender 4.5 for this sample (scripts in render/). Our own work.
 - Lighting: HDRI "Studio Small 09" by Sergej Majboroda, Poly Haven, CC0. https://polyhaven.com/a/studio_small_09
 
 ## Fonts (Google Fonts, SIL Open Font License 1.1)

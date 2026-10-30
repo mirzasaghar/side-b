@@ -12,13 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300..700&family=Hanken+Grotesk:wght@400..600&display=swap" rel="stylesheet" />
     <link rel="preload" as="image" href="../img/chrome/record-1600.webp" imagesrcset="../img/chrome/record-800.webp 800w, ../img/chrome/record-1200.webp 1200w, ../img/chrome/record-1600.webp 1600w, ../img/chrome/record-2400.webp 2400w" imagesizes="(min-width: 60rem) 60vw, 100vw" fetchpriority="high" />
-    <script type="module" crossorigin src="../assets/chrome-CLNPFT-H.js"></script>
+    <script type="module" crossorigin src="../assets/chrome-DlAOvynv.js"></script>
     <link rel="modulepreload" crossorigin href="../assets/transitions-Dmy-K4ic.js">
     <link rel="modulepreload" crossorigin href="../assets/booking-QiCjPrqt.js">
     <link rel="modulepreload" crossorigin href="../assets/needle-fMAHz961.js">
     <link rel="stylesheet" crossorigin href="../assets/transitions-CAaEYbZX.css">
     <link rel="stylesheet" crossorigin href="../assets/booking-Dos5d-Vi.css">
-    <link rel="stylesheet" crossorigin href="../assets/chrome-DYlmUs1Q.css">
+    <link rel="stylesheet" crossorigin href="../assets/chrome-EKcb380Q.css">
   </head>
   <body>
     <div class="viewer">
@@ -58,7 +58,7 @@
           <div class="cr-actions">
             <a class="cr-btn" href="#book">Book a seat</a>
             <button class="cr-needle" type="button" data-needle aria-pressed="false">
-              <span class="cr-needle__arm" aria-hidden="true"></span><span data-needle-label>Drop the needle</span>
+              <span data-needle-label>Drop the needle</span>
             </button>
           </div>
           <p class="cr-small">Sound on. What you hear is the crackle and hum of the room, made live in your browser. The music itself is for the room.</p>
@@ -67,16 +67,25 @@
 
         <figure class="cr-deck" data-deck>
           <div class="cr-deck__move" data-deck-move>
-            <div class="cr-disc" data-disc data-frames="48" data-frame-box="-0.1677 -0.1087 1.228" data-cx="0.5045" data-cy="0.299" data-squash="0.545" data-sign="-1" data-spin-large="/img/chrome/spin-1200/" data-spin-small="/img/chrome/spin-600/">
+            <div class="cr-disc" data-disc data-frames="48" data-frame-box="-0.1677 -0.1087 1.228" data-cx="0.5045" data-cy="0.299" data-squash="0.545" data-sign="-1" data-spin-large="../img/chrome/spin-1200/" data-spin-small="../img/chrome/spin-600/">
               <img
                 class="cr-disc__still"
                 src="../img/chrome/record-1600.webp"
                 srcset="../img/chrome/record-800.webp 800w, ../img/chrome/record-1200.webp 1200w, ../img/chrome/record-1600.webp 1600w, ../img/chrome/record-2400.webp 2400w"
                 sizes="(min-width: 60rem) 60vw, 100vw"
                 width="1200" height="1200"
-                alt="A mirror-chrome LP, tilted towards you, whose rim is melting into drops of liquid metal"
+                alt="A mirror-chrome LP with a chrome tonearm on its rest, tilted towards you, the record's rim melting into drops of liquid metal"
                 fetchpriority="high" />
               <canvas class="cr-disc__frames" aria-hidden="true"></canvas>
+              <div class="cr-arm" data-arm data-count="14" data-play="11-31" data-large="../img/chrome/tonearm-1200/" data-small="../img/chrome/tonearm-600/" aria-hidden="true">
+                <img
+                  class="cr-arm__rest"
+                  src="../img/chrome/tonearm-1200/tonearm-00.webp"
+                  srcset="../img/chrome/tonearm-600/tonearm-00.webp 600w, ../img/chrome/tonearm-1200/tonearm-00.webp 1200w"
+                  sizes="(min-width: 60rem) 75vw, 125vw"
+                  width="1200" height="1200" alt="" decoding="async" />
+                <canvas class="cr-arm__frames"></canvas>
+              </div>
             </div>
           </div>
           <figcaption class="cr-deck__cap" data-deck-cap>
@@ -255,7 +264,7 @@
         <div class="cr-foot__credits">
           <h2>Credits</h2>
           <ul>
-            <li>Chrome record modelled and rendered in Blender for this sample.</li>
+            <li>Chrome record and tonearm modelled and rendered in Blender for this sample.</li>
             <li>Lit with the HDRI Studio Small 09, by Sergej Majboroda, from <a href="https://polyhaven.com/a/studio_small_09">Poly Haven</a>, CC0.</li>
             <li>Set in <a href="https://fonts.google.com/specimen/Unbounded">Unbounded</a> and <a href="https://fonts.google.com/specimen/Hanken+Grotesk">Hanken Grotesk</a>, both under the SIL Open Font License, from Google Fonts.</li>
           </ul>
